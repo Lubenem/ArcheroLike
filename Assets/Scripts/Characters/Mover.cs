@@ -6,7 +6,7 @@ public class Mover : MonoBehaviour
     [HideInInspector] public Vector3 velocity;
     public Joystick joystick;
     public float speed = 3;
-    private Transform nearestEnemy;
+    [HideInInspector] public Transform nearestEnemy;
 
     private void Update()
     {
