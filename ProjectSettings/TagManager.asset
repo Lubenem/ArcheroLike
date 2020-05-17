@@ -8,6 +8,7 @@ TagManager:
   - Fireball
   - Letun
   - PlayerHealthBar
+  - GameManager
   layers:
   - Default
   - TransparentFX

@@ -30,7 +30,7 @@ MonoBehaviour:
   timeToWalk: 1
   timeToAttack: 1
   minDist: 0.5
-  timeBetweenAttacks: 1
+  timeBetweenAttacks: 0.4
   damage: 5
 --- !u!1001 &3067573235036514039
 PrefabInstance:
@@ -112,6 +112,11 @@ PrefabInstance:
     - target: {fileID: 7386873758558086477, guid: 853238a93bc527ab4925329a763836bc,
         type: 3}
       propertyPath: health
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7386873758558086477, guid: 853238a93bc527ab4925329a763836bc,
+        type: 3}
+      propertyPath: maxHealth
       value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []

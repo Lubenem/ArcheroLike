@@ -28,7 +28,7 @@ MonoBehaviour:
   speed: 1
   minDist: 0.7
   damage: 5
-  timeBetweenAttacks: 1
+  timeBetweenAttacks: 0.6
 --- !u!1001 &8967242708206856218
 PrefabInstance:
   m_ObjectHideFlags: 0

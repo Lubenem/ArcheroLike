@@ -7,8 +7,7 @@ public class Boss : MonoBehaviour
     private bool isMoving;
     private GameObject player;
     public float speed = 6;
-    public float timeToWalk = 1;
-    public float timeToAttack = 1;
+    public float playerChasingTime = 2;
     public float minDist = 0.5f;
     public float timeBetweenAttacks = 1;
     float timeSinceLastAttack;
@@ -17,6 +16,7 @@ public class Boss : MonoBehaviour
 
     private void Start()
     {
+        timeSinceLastAttack = Mathf.Infinity;
         player = GameObject.FindWithTag("Player");
         StartCoroutine(Routine());
     }
@@ -53,7 +53,7 @@ public class Boss : MonoBehaviour
     private IEnumerator State1()
     {
         isMoving = true;
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(playerChasingTime);
     }
 
     private IEnumerator State2()

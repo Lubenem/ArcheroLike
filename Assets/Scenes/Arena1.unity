@@ -2372,6 +2372,16 @@ PrefabInstance:
       propertyPath: enemy
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2348678417925035259, guid: 0f01e9de4a40ed199b1b31c7ed73773c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2348678417925035259, guid: 0f01e9de4a40ed199b1b31c7ed73773c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3352243632114448766, guid: 0f01e9de4a40ed199b1b31c7ed73773c,
         type: 3}
       propertyPath: sceneToLoad

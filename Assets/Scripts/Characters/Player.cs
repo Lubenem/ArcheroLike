@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
             GetComponent<Animator>().SetBool("Attacking", false);
         }
 
-        Debug.DrawRay(rayPos.position, nearestEnemy.position - rayPos.position);
+        if (nearestEnemy != null) Debug.DrawRay(rayPos.position, nearestEnemy.position - rayPos.position);
     }
 
     private bool isVisible(Transform nearestEnemy)

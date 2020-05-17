@@ -12,6 +12,7 @@ public class Polzun : MonoBehaviour
     private void Start()
     {
         player = GameObject.FindWithTag("Player");
+        timeSinceLastAttack = Mathf.Infinity;
     }
 
     void Update()
@@ -32,7 +33,7 @@ public class Polzun : MonoBehaviour
     {
         timeSinceLastAttack += Time.deltaTime;
         if (timeSinceLastAttack < timeBetweenAttacks) return;
-        timeSinceLastAttack = 0;
         player.GetComponent<Health>().takeDamage(damage);
+        timeSinceLastAttack = 0;
     }
 }
