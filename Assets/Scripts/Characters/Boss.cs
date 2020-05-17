@@ -23,6 +23,8 @@ public class Boss : MonoBehaviour
 
     private void Update()
     {
+        if (player == null) return;
+
         transform.LookAt(player.transform);
 
         if (!isMoving) return;

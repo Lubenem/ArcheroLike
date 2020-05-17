@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public float speed = 3;
     RaycastHit hit;
     public Transform rayPos;
+    public GameObject popUp;
 
     private void Update()
     {
@@ -71,5 +72,10 @@ public class Player : MonoBehaviour
             }
         }
         return target.transform;
+    }
+
+    private void OnDestroy()
+    {
+        popUp.GetComponent<PopUp>().isPlayerAlive = false;
     }
 }

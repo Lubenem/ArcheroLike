@@ -27,8 +27,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.2
-  timeToWalk: 1
-  timeToAttack: 1
+  playerChasingTime: 2
   minDist: 0.5
   timeBetweenAttacks: 0.4
   damage: 5
@@ -112,12 +111,12 @@ PrefabInstance:
     - target: {fileID: 7386873758558086477, guid: 853238a93bc527ab4925329a763836bc,
         type: 3}
       propertyPath: health
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7386873758558086477, guid: 853238a93bc527ab4925329a763836bc,
         type: 3}
       propertyPath: maxHealth
-      value: 15
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 853238a93bc527ab4925329a763836bc, type: 3}

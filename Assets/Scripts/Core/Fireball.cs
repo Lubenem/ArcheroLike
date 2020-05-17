@@ -16,6 +16,8 @@ public class Fireball : MonoBehaviour
 
     private void Update()
     {
+        if (player == null) return;
+
         isColliding = false;
 
         transform.Translate(Vector3.forward * speed * Time.deltaTime);

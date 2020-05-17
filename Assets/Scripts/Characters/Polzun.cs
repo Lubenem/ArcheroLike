@@ -17,6 +17,7 @@ public class Polzun : MonoBehaviour
 
     void Update()
     {
+        if (player == null) return;
         transform.LookAt(player.transform);
 
         if (Vector3.Distance(transform.position, player.transform.position) > minDist)

@@ -144,10 +144,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2570564038478221222, guid: 0f01e9de4a40ed199b1b31c7ed73773c,
+    - target: {fileID: 3352243632114448766, guid: 0f01e9de4a40ed199b1b31c7ed73773c,
         type: 3}
-      propertyPath: m_Value
-      value: 1
+      propertyPath: sceneToLoad
+      value: Arena1
       objectReference: {fileID: 0}
     - target: {fileID: 5646508145073399737, guid: 0f01e9de4a40ed199b1b31c7ed73773c,
         type: 3}
@@ -214,5 +214,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8471786030848398449, guid: 0f01e9de4a40ed199b1b31c7ed73773c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7208062636574325433, guid: 0f01e9de4a40ed199b1b31c7ed73773c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0f01e9de4a40ed199b1b31c7ed73773c, type: 3}

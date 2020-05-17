@@ -11,4 +11,13 @@ public class PlayerFighter : MonoBehaviour
         fireball = Instantiate(fireballPrefab, fireballPos.position, transform.rotation);
         fireball.transform.LookAt(GetComponent<Player>().nearestEnemy.position);
     }
+
+    public void FootL()
+    {
+
+    }
+    public void FootR()
+    {
+
+    }
 }

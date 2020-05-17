@@ -13,12 +13,14 @@ public class EnemyFighter : MonoBehaviour
 
     public void Hit()
     {
+        if (player == null) return;
         fireball = Instantiate(fireballPrefab, transform.position, transform.rotation);
         fireball.transform.LookAt(player.GetComponent<Player>().enemyTargetPos.transform.position);
     }
 
     public void TripleHit()
     {
+        if (player == null) return;
         fireball = Instantiate(fireballPrefab, transform.position, transform.rotation);
         fireball.transform.LookAt(player.GetComponent<Player>().enemyTargetPos.transform.position);
         fireball.transform.Rotate(0, 30, 0);
