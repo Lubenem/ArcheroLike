@@ -16,12 +16,14 @@ public class Fireball : MonoBehaviour
 
     private void Update()
     {
-        if (player == null) return;
+        
 
         isColliding = false;
 
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
+        if (player == null) return;
+        
         if (Vector3.Distance(transform.position, player.transform.position) >= maxDist)
         {
             Destroy(this.gameObject);
