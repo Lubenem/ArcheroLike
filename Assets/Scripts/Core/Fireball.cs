@@ -7,6 +7,7 @@ public class Fireball : MonoBehaviour
     public float maxDist = 10;
     private bool isColliding;
     public float damage = 5;
+    public string target;
 
     private void Start()
     {
@@ -29,7 +30,7 @@ public class Fireball : MonoBehaviour
     {
         if (isColliding) return;
 
-        if (other.tag == "Enemy")
+        if (other.tag == target)
         {
             isColliding = true;
             other.GetComponent<Health>().takeDamage(damage);

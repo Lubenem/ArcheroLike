@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PolzunMover : MonoBehaviour
+public class Polzun : MonoBehaviour
 {
     public float speed = 4;
     public float minDist = 0.5f;
@@ -33,7 +33,6 @@ public class PolzunMover : MonoBehaviour
         timeSinceLastAttack += Time.deltaTime;
         if (timeSinceLastAttack < timeBetweenAttacks) return;
         timeSinceLastAttack = 0;
-        Debug.Log("Hit");
         player.GetComponent<Health>().takeDamage(damage);
     }
 }

@@ -109,6 +109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   maxDist: 20
+  damage: 5
+  target: Enemy
 --- !u!54 &8905957620331424660
 Rigidbody:
   m_ObjectHideFlags: 0
