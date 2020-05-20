@@ -1,6 +1,6 @@
 # ArcheroLike
 
-![](Screenshots/Screenshot1.jpg =250x250)
+![](Screenshots/Screenshot1.jpg | width=100)
 
 ![](Screenshots/Screenshot2.jpg)
 
