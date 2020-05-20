@@ -9,6 +9,7 @@ TagManager:
   - Letun
   - PlayerHealthBar
   - GameManager
+  - Shield
   layers:
   - Default
   - TransparentFX

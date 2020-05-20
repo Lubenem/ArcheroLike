@@ -16,14 +16,14 @@ public class Fireball : MonoBehaviour
 
     private void Update()
     {
-        
+
 
         isColliding = false;
 
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
         if (player == null) return;
-        
+
         if (Vector3.Distance(transform.position, player.transform.position) >= maxDist)
         {
             Destroy(this.gameObject);
@@ -40,5 +40,7 @@ public class Fireball : MonoBehaviour
             other.GetComponent<Health>().takeDamage(damage);
             Destroy(this.gameObject);
         }
+
+        // if (other.tag == "Shield") Destroy(this.gameObject);
     }
 }
