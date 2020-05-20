@@ -1,6 +1,6 @@
 # ArcheroLike
 
-<img src="Screenshots/Screenshot1.jpg" width="40%"> </pre>  <img src="Screenshots/Screenshot2.jpg" width="40%">
+<img src="Screenshots/Screenshot1.jpg" width="40%"> &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp; <img src="Screenshots/Screenshot2.jpg" width="40%">
 
 # Credits
 
