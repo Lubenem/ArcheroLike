@@ -1,7 +1,6 @@
 # ArcheroLike
 
-<img src="Screenshots/Screenshot1.jpg" width="40%">
-<img src="Screenshots/Screenshot2.jpg" width="40%">
+<img src="Screenshots/Screenshot1.jpg" width="40%">  <img src="Screenshots/Screenshot2.jpg" width="40%">
 
 # Credits
 
