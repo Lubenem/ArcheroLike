@@ -1,6 +1,7 @@
 # ArcheroLike
 
-![](Screenshots/Screenshot1.jpg | width=100)
+#![](Screenshots/Screenshot1.jpg | width=100)
+<img src="Screenshots/Screenshot1.jpg" width="40%">
 
 ![](Screenshots/Screenshot2.jpg)
 
