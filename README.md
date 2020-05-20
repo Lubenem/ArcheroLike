@@ -1,8 +1,8 @@
 # ArcheroLike
 
-![](Screenshots/Screenshot1.png)
+![](Screenshots/Screenshot1.jpeg)
 
-![](Screenshots/Screenshot2.png)
+![](Screenshots/Screenshot2.jpeg)
 
 # Credits
 
